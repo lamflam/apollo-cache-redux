@@ -997,6 +997,7 @@ describe('Cache', () => {
                         type: 'id',
                         id: 'bar',
                         generated: false,
+                        typename: "Bar"
                     },
                 },
                 bar: {
@@ -1039,6 +1040,7 @@ describe('Cache', () => {
                         type: 'id',
                         id: 'bar',
                         generated: false,
+                        typename: "Bar"
                     },
                 },
                 bar: {
