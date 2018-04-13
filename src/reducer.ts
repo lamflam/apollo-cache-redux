@@ -1,4 +1,5 @@
-import { merge, cloneDeep } from 'lodash';
+import merge = require('lodash/merge');
+import cloneDeep = require('lodash/cloneDeep');
 import { Reducer } from 'redux';
 import {
     APOLLO_OVERWRITE,

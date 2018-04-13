@@ -11,7 +11,7 @@ import {
     ReduxNormalizedCacheConfig,
     reduxNormalizedCacheFactory
 } from './reduxNormalizedCache';
-import {cloneDeep} from 'lodash';
+import cloneDeep = require('lodash/cloneDeep');
 
 export type ReduxCacheConfig = ApolloReducerConfig & ReduxNormalizedCacheConfig;
 
